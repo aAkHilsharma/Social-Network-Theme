@@ -50,3 +50,19 @@ img {
         }
     }
 }
+// Landing
+.landing {
+    position: relative;
+    background: url('/img/bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    &-inner {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        height: 100%;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+    }
+}
