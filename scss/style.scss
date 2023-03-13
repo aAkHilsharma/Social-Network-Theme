@@ -1,5 +1,5 @@
 @import 'config';
-
+@import 'utilities';
 // resets
 *{
     box-sizing: border-box;
@@ -23,11 +23,6 @@ ul {
 }
 img {
     width: 100%;
-}
-
-// utility class
-.bg-dark {
-    background-color: $dark-color;
 }
 
 // navbar
