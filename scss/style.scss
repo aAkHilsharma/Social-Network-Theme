@@ -1,0 +1,57 @@
+@import 'config';
+
+// resets
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;    
+    font-size: 1rem;
+    background: #fff;
+    color:#333;
+}
+
+a{
+    text-decoration: none;
+    color: $primary-color;
+}
+ul {
+    list-style: none;
+}
+img {
+    width: 100%;
+}
+
+// utility class
+.bg-dark {
+    background-color: $dark-color;
+}
+
+// navbar
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 2rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid $primary-color;
+    opacity: 0.9;
+
+    ul {
+        display: flex;
+    }
+    a {
+        padding: 0.45rem;
+        margin: 0 0.25rem;
+        color: #fff;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
