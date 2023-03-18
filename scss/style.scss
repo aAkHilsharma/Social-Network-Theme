@@ -152,3 +152,21 @@ img {
     }
 
 }
+
+//Post page
+
+.post-form-header {
+    padding: 0.5rem;
+}
+.post {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    grid-gap: 2rem;
+    & > div:first-child {
+        text-align: center;
+    }
+    img {
+        width: 150px;
+    }
+}
