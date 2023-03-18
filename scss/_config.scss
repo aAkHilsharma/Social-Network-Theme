@@ -30,6 +30,9 @@ $spaceamounts: (1, 2, 3, 4, 5);
     .m-#{$space}{
         margin: #{$space}rem;
     }
+    .mx-#{$space}{
+        margin: 0 #{$space}rem;
+    }
     //Vertical margin
     .my-#{$space}{
         margin: #{$space}rem 0;
